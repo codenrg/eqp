@@ -1,0 +1,66 @@
+#container {
+	font-family: sans-serif;
+	font-size: 16px;
+	padding: 10px;
+	color: #666666;
+	width: 750px;
+	margin: auto;
+}
+
+h1 {
+	font-size: 28px;
+	margin: 20px;
+	text-align: center;
+	color: #999999;
+}
+
+#chessboard_container {
+	width: 500px;
+	float: left;
+}
+
+#stats {
+	width: 200px;
+	float: left;
+	margin: 45px 0;
+}
+
+#stats h3, #stats .current_queens li {
+	margin: 15px 0;
+}
+
+#stats ol {
+	list-style: decimal;
+	padding: 0 25px;
+}
+
+.chessboard td {
+	width: 45px;
+	height: 45px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.chessboard td.queen {
+	background: url(../img/queen.png) no-repeat center center;
+}
+
+.chessboard td.light {
+	background-color: #ffce9e;
+}
+
+.chessboard td.dark {
+	background-color: #d18b47;
+}
+
+.chessboard td.dark.conflict {
+	background-color: #a60000;
+}
+
+.chessboard td.light.conflict {
+	background-color: #bf3030;
+}
+
+.chessboard td.success {
+	background-color: #329D27;
+}
